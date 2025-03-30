@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slavery in Canada - Historical Overview</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
+        h1, h2 { color: #333; }
+        .citation { font-size: 0.9em; color: #555; }
+        img { max-width: 100%; height: auto; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Slavery in Canada</h1>
+        <p><strong>Researched and compiled by Albert Biliavtsev</strong></p>
+        
+        <h2>Introduction</h2>
+        <p>While Canada is often celebrated as a sanctuary for freedom seekers via the Underground Railroad, its own history with slavery is complex and often overlooked...</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Book_of_Negroes_list.jpg" alt="Book of Negroes Document">
+        
+        <h2>Early History of Slavery in Canada</h2>
+        <p>Slavery was introduced into what is now Canada during the early colonial period. Both Indigenous peoples and Africans were subjected to enslavement under French and British rule. Enslaved people were often used as domestic servants or laborers in agricultural and trade industries.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Slavery_in_New_France.jpg" alt="Slavery in New France">
+        
+        <h2>Key Events and Legislation</h2>
+        <ul>
+            <li><strong>1793 Act to Limit Slavery:</strong> One of the first legislative attempts to restrict slavery in the British Empire. It prevented the importation of new slaves and declared that children born to enslaved mothers would be freed at age 25.</li>
+            <li><strong>Slavery Abolition Act of 1833:</strong> This act abolished slavery throughout the British Empire, including Canada, and took effect on August 1, 1834, officially freeing enslaved individuals.</li>
+        </ul>
+        
+        <h2>Notable Figures</h2>
+        <ul>
+            <li><strong>Marie-Joseph Angélique:</strong> An enslaved Black woman in Montreal accused of setting a fire in 1734. She was convicted and executed, but many historians believe she was unfairly blamed.</li>
+            <li><strong>Sophia Pooley:</strong> Enslaved by Mohawk leader Joseph Brant, Pooley later gained her freedom and provided one of the few firsthand accounts of slavery in Canada.</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Marie-Joseph_Angelique_trial.jpg" alt="Marie-Joseph Angélique Trial">
+        
+        <h2>Primary Source Document</h2>
+        <p><strong>The Book of Negroes:</strong> A ledger documenting approximately 3,000 Black Loyalists evacuated to Nova Scotia by the British after the American Revolution. It remains a crucial historical document for understanding early Black communities in Canada.</p>
+        
+        <h2>Works Cited</h2>
+        <p class="citation">Cooper, Afua. <i>The Hanging of Angélique: The Untold Story of Canadian Slavery and the Burning of Old Montreal</i>. University of Georgia Press, 2007.</p>
+        <p class="citation">Drew, Benjamin. <i>The Refugee: Narratives of Fugitive Slaves in Canada</i>. John P. Jewett and Company, 1856.</p>
+        <p class="citation">"Primary Sources - Black History in Canada." <i>University of Ottawa Library Guides</i>, <a href="https://uottawa.libguides.com/c.php?g=736244&p=5303127">link</a>. Accessed 30 Mar. 2025.</p>
+        <p class="citation">"Slavery in Canada." <i>Wikipedia</i>, <a href="https://en.wikipedia.org/wiki/Slavery_in_Canada">link</a>. Accessed 30 Mar. 2025.</p>
+        <p class="citation">"The Book of Negroes." <i>Wikipedia</i>, <a href="https://en.wikipedia.org/wiki/Book_of_Negroes">link</a>. Accessed 30 Mar. 2025.</p>
+    </div>
+</body>
+</html>
