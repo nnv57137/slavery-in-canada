@@ -5,17 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slavery in Canada - Historical Overview</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; padding: 20px; background-color: #f4f4f4; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; }
-        h1, h2, h3 { color: #333; }
-        .citation { font-size: 0.9em; color: #555; }
-        img { max-width: 100%; height: auto; margin: 10px 0; }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2e;
+            color: #e0e0e0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #2a2a3b;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeIn 1s forwards;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1, h2, h3 {
+            color: #ffcc00;
+            text-align: center;
+            animation: slideUp 1s ease-out;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        p, ul {
+            font-size: 1.1em;
+            color: #e0e0e0;
+            text-align: justify;
+            opacity: 0;
+            animation: fadeInText 1s 0.5s forwards;
+        }
+        @keyframes fadeInText {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .citation {
+            font-size: 0.9em;
+            color: #bbbbbb;
+            font-style: italic;
+            text-align: center;
+            opacity: 0;
+            animation: fadeInText 1s 1.2s forwards;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+            opacity: 0;
+            animation: fadeInImage 1s 0.5s forwards;
+        }
+        @keyframes fadeInImage {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Slavery in Canada</h1>
-        <p><strong>Researched and compiled by Albert Biliavtsev</strong></p>
+        <p style="text-align:center;"><strong>Researched and compiled by Albert Biliavtsev</strong></p>
         
         <h2>Introduction</h2>
         <p>While Canada is often celebrated as a sanctuary for freedom seekers via the Underground Railroad, its own history with slavery is complex and often overlooked. Enslavement of Indigenous and African peoples existed for over two centuries under both French and British rule. This website explores the presence and impact of slavery in Canada, highlighting key events, figures, and documents.</p>
@@ -24,11 +122,13 @@
         <h2>Origins of Slavery in Canada</h2>
         <p>Slavery in Canada dates back to the early 1600s, when both Indigenous and African people were enslaved by European colonists. The first recorded African slave in Canada was Olivier Le Jeune, brought to New France in 1628. Indigenous slavery, often overlooked, was just as prevalent, with the French using Indigenous captives as forced labor.</p>
         <p>By the late 18th century, thousands of Black and Indigenous people were enslaved across the colonies. British Loyalists fleeing the American Revolution brought enslaved people with them, increasing the number of enslaved Black individuals in Canada.</p>
+        <p>Many Indigenous groups, including the Haudenosaunee and Anishinaabe, also practiced slavery, often taking captives during conflicts. However, their system was different from European chattel slavery, as captives could sometimes be adopted into the community.</p>
         <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Slavery_in_New_France.jpg" alt="Slavery in New France">
         
         <h2>Key Events and Legislation</h2>
         <ul>
             <li><strong>1689-1709: French Colonial Slave Codes:</strong> These laws classified enslaved people as property, granting full control to their owners.</li>
+            <li><strong>1734: Trial of Marie-Joseph Angélique:</strong> Accused of setting fire to Montreal, her execution became a symbol of resistance.</li>
             <li><strong>1793 Act to Limit Slavery:</strong> One of the first legal restrictions on slavery in the British Empire, preventing further importation and setting a path for gradual abolition.</li>
             <li><strong>1807 British Slave Trade Act:</strong> Banned the transatlantic slave trade but did not free enslaved people already in the colonies.</li>
             <li><strong>1833 Slavery Abolition Act:</strong> Officially abolished slavery across the British Empire, including Canada.</li>
@@ -36,35 +136,15 @@
         </ul>
         <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Underground_Railroad_map.jpg" alt="Underground Railroad Routes">
         
-        <h2>Notable Figures</h2>
-        <ul>
-            <li><strong>Marie-Joseph Angélique:</strong> An enslaved Black woman in Montreal who was accused of arson and executed in 1734.</li>
-            <li><strong>Sophia Pooley:</strong> Enslaved by Mohawk leader Joseph Brant, she later gained her freedom and provided key firsthand accounts of Canadian slavery.</li>
-            <li><strong>Josiah Henson:</strong> A former slave who settled in Canada and established a refuge for freed slaves.</li>
-            <li><strong>Harriet Tubman:</strong> Though not Canadian, she played a key role in helping enslaved individuals escape to Canada.</li>
-        </ul>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Josiah_Henson.jpg" alt="Josiah Henson">
-        
-        <h2>Conditions of Enslavement</h2>
-        <p>Enslaved people in Canada were often forced into domestic service, agriculture, and trade work. While some were treated as status symbols by their owners, others were subjected to extreme physical abuse and harsh labor.</p>
-        
-        <h2>Resistance and Rebellion</h2>
-        <p>Many enslaved people resisted through escape, rebellion, and legal action. Some, like Marie-Joseph Angélique, were accused of acts of resistance, while others successfully fled via the Underground Railroad.</p>
-        
-        <h2>End of Slavery and Its Aftermath</h2>
-        <p>Even after slavery was abolished in 1834, discrimination persisted. Black Canadians were often denied land, employment, and equal rights. Some communities, like Africville in Nova Scotia, suffered systemic racism and displacement.</p>
-        
-        <h2>Modern Recognition</h2>
-        <p>Today, Canada acknowledges its history through Emancipation Day (August 1st) and the preservation of historic sites related to slavery and the Underground Railroad.</p>
-        
         <h2>Works Cited</h2>
         <p class="citation">Cooper, Afua. <i>The Hanging of Angélique: The Untold Story of Canadian Slavery and the Burning of Old Montreal</i>. University of Georgia Press, 2007.</p>
         <p class="citation">Drew, Benjamin. <i>The Refugee: Narratives of Fugitive Slaves in Canada</i>. John P. Jewett and Company, 1856.</p>
-        <p class="citation">"Primary Sources - Black History in Canada." <i>University of Ottawa Library Guides</i>, <a href="https://uottawa.libguides.com/c.php?g=736244&p=5303127">link</a>. Accessed 30 Mar. 2025.</p>
-        <p class="citation">"Slavery in Canada." <i>Wikipedia</i>, <a href="https://en.wikipedia.org/wiki/Slavery_in_Canada">link</a>. Accessed 30 Mar. 2025.</p>
-        <p class="citation">"The Book of Negroes." <i>Wikipedia</i>, <a href="https://en.wikipedia.org/wiki/Book_of_Negroes">link</a>. Accessed 30 Mar. 2025.</p>
+        <p class="citation">Walker, James W. St. G. <i>The Black Loyalists: The Search for a Promised Land in Nova Scotia and Sierra Leone, 1783-1870</i>. University of Toronto Press, 1992.</p>
+        <p class="citation">Whitfield, Harvey Amani. <i>North to Bondage: Loyalist Slavery in the Maritimes</i>. UBC Press, 2016.</p>
+        <p class="citation">"Slavery in Canada." <i>Canadian Encyclopedia</i>, <a href="https://www.thecanadianencyclopedia.ca/en/article/black-enslavement">link</a>. Accessed 30 Mar. 2025.</p>
     </div>
 </body>
 </html>
+
 
 
